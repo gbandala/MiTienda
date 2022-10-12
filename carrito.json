@@ -1,0 +1,8 @@
+[
+    {"id": 1, "nombre": "Short 1", "tipo": "Short", "cantidad": 1,  "precio": 1000, "talla": "L"},
+    {"id": 2, "nombre": "Playera 1", "tipo": "Playera", "cantidad": 1, "precio": 1000, "talla": "L"},
+    {"id": 3, "nombre": "Camisa 1", "tipo": "camisa", "cantidad": 1, "precio": 1000, "talla": "L"},
+    {"id": 4, "nombre": "Pantalon 1", "tipo": "pantalon", "cantidad": 1, "precio": 1000, "talla": "L"},
+    {"id": 5, "nombre": "Short 2", "tipo": "Short", "cantidad": 1, "precio": 1000, "talla": "L"}
+  
+]

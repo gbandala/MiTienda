@@ -54,6 +54,7 @@ const agregarAlCarrito = (prodId) => {
 };
 // actualizar el contenido del carrito
 const actualizarCarrito = () => {
+    
     // limpiar el contenedor antes de actualizar
     //recorrer el arreglo del carrito y crear cada elemento en html del arreglo
     //anidar el elemento creado al contendor del carrito
@@ -79,6 +80,7 @@ const actualizarCarrito = () => {
     div2.insertAdjacentHTML("beforeend", "<button onclick='vaciarCarrito()' class='boton-agregar'>Vaciar carrito</button>");
     contenedorCarrito.appendChild(div2);
     localStorage.setItem('carrito', JSON.stringify(carrito));
+    console.log(carrito);
 };
 //eliminar producto del carrito
 const eliminarDelCarrito = (prodId) => {
